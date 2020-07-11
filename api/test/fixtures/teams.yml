@@ -1,7 +1,8 @@
 # Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
 
-one:
-  belongs_to: 
-
-two:
-  belongs_to: 
+annasteam:
+  user: 1
+annasotherteam:
+  user: 1
+juliannesteam:
+  user: 2
