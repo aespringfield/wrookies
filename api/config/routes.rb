@@ -3,4 +3,7 @@ Rails.application.routes.draw do
   resources :players, only: [:show, :index]
   # get 'players/install', to: 'players#install'
   # get 'players/:id/glarf', to: 'players#show'
+  resources :users, only: [:show, :create, :edit] do
+    resources :teams
+  end
 end
